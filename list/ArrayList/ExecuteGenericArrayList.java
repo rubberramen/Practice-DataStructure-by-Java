@@ -1,10 +1,8 @@
-package dataStructurePrac.list;
+package dataStructurePrac.list.ArrayList;
 
-public class ExecuteIntegerList {
-
-    public static void main(String[] args) throws IntegerArrayList.ExceptionList {
-        IntegerArrayList list = new IntegerArrayList();
-        System.out.println("Integer Array List Demo!");
+public class ExecuteGenericArrayList {
+    public static void main(String[] args) {
+        ArrayList<Integer> list = new ArrayList<>();
         list.add(0, 300);
         list.add(0, 200);
         list.add(0, 100);
@@ -12,12 +10,15 @@ public class ExecuteIntegerList {
 
         list.append(500);
         list.append(600);
+        list.printAll();
         list.remove(3);
         list.printAll();
 
         list.add(3, 250);
         list.add(1, 50);
         list.add(0, 10);
+        list.printAll();
+
         list.append(700);
         list.printAll();
 

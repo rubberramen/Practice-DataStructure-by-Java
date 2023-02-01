@@ -1,8 +1,10 @@
-package dataStructurePrac.list;
+package dataStructurePrac.list.ArrayList;
+
+import dataStructurePrac.list.IntegerListInterface;
 
 import java.util.Arrays;
 
-public class IntegerArrayList implements IntegerListInterface{
+public class IntegerArrayList implements IntegerListInterface {
 
     // 멤버 필드
     private Integer[] item;
@@ -22,7 +24,7 @@ public class IntegerArrayList implements IntegerListInterface{
     }
 
     // 예외 클래스
-    static class ExceptionList extends Exception {
+    public static class ExceptionList extends Exception {
         public ExceptionList(String msg) {
             super(msg);
         }

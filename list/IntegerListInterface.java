@@ -1,5 +1,7 @@
 package dataStructurePrac.list;
 
+import dataStructurePrac.list.ArrayList.IntegerArrayList;
+
 public interface IntegerListInterface {
     public void add(int index, Integer x) throws IntegerArrayList.ExceptionList;
 

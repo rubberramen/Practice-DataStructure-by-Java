@@ -1,6 +1,8 @@
-package dataStructurePrac.list;
+package dataStructurePrac.list.ArrayList;
 
-public class ArrayList<E> implements ListInterfaceGeneric<E>{
+import dataStructurePrac.list.ListInterfaceGeneric;
+
+public class ArrayList<E> implements ListInterfaceGeneric<E> {
 
     private E[] item;
     private int numItems;
