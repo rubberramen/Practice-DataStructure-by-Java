@@ -1,4 +1,4 @@
-package dataStructurePrac.list.ArrayList;
+package dataStructurePrac.list.arrayList;
 
 public class ExecuteIntegerArrayList {
 
