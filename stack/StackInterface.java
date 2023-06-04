@@ -1,4 +1,4 @@
-package dataStructurePrac.list.stack;
+package dataStructurePrac.stack;
 
 public interface StackInterface<E> {
 

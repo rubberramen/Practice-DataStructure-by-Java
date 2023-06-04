@@ -1,4 +1,4 @@
-package dataStructurePrac.list.stack;
+package dataStructurePrac.stack;
 
 public class ArrayStack<E> implements StackInterface<E>{
 
